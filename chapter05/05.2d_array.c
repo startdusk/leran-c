@@ -7,6 +7,7 @@ void sum_int_arrays(int rows, int columns, int array[][columns], int result[])
     {
         for (int j = 0; j < columns; j++)
         {
+            // 因为C语言没有严格意义上的“数组类型”！
             // 需要返回数组变量，就要从参数中传入该数组还有数组长度(因为自动类型变量的问题，会在返回的时候销毁变量)
             result[i] += array[i][j];
         }

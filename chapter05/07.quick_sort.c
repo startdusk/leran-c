@@ -49,6 +49,7 @@ void quick_sort(int array[], int low, int high)
     quick_sort(array, part + 1, high);
 }
 
+
 int main(void)
 {
     int players[PLAYER_COUNT];
