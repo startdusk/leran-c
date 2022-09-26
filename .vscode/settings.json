@@ -9,7 +9,8 @@
     "fib.h": "c",
     "strings.h": "c",
     "io_utils.h": "c",
-    "time_utils.h": "c"
+    "time_utils.h": "c",
+    "string.h": "c"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
